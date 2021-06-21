@@ -11,7 +11,7 @@ The challenge is to create a small mobile application for our spam protection te
 
 The UI should look something like:
 
-![Reporting listing](images/wireframe.png)
+![Reporting listing](https://github.com/morkro/coding-challenge/blob/master/images/wireframe.png?raw=true)
 
 We provide an example listing response ([`data/reports.json`](data/reports.json)) that you can use as the basis of your listing. Please fill the appropriate fields in the wireframe, ignore the "Details" link.
 
