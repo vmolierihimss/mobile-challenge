@@ -15,7 +15,7 @@ The UI should look something like:
 
 We provide an example listing response ([`data/reports.json`](data/reports.json)) that you can use as the basis of your listing. Please fill the appropriate fields in the wireframe, ignore the "Details" link.
 
-Furthermore we need a way to _block_ the content and _resolve_ those reports. The two buttons in the UI should do a call to your backend service in order to block the content or to resolve the ticket. You are free to implement the blocking as you want, however the resolving should be defined as a `PUT` request to an endpoint with this structure `/reports/:reportId`. An example request for how to update a report is in [`data/update_ticket_request.json`](data/update_ticket_request.json).
+Furthermore we need a way to _block_ the content and _resolve_ those reports. Ideally this will be implemented as a local database. The two buttons in the UI should do a call to your database in order to block the content or to resolve the ticket. You are free to implement the blocking as you want. For bonus points, add a mock for a backend call.
 
 
 - **`Block`:** Means that the content should no longer be available to users
