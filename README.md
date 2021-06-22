@@ -1,4 +1,4 @@
-# Example Full-Stack Challenge
+# Example Mobile Challenge
 
 We're excited that you're interested in performing the coding challenge.
 The purpose of this test is to see how you approach problems as well as to evaluate the quality of your code.
